@@ -1,5 +1,5 @@
-### Wings R Us – Personalized Menu Item Recommendation System
-#### Overview
+# Wings R Us – Personalized Menu Item Recommendation System
+### Overview
 This project is a personalized recommendation engine for Wings R Us, a US-based quick service restaurant (QSR) chain specializing in chicken wings, sides, and beverages.
 The goal is to predict the top 3 most likely items a customer would add to their cart, given their current selection, in order to:
 
@@ -11,7 +11,7 @@ Improve customer retention
 
 This solution was developed for WWT Unravel 2025 as part of a data science challenge, following the problem statement provided by the organizers
 
-#### Business Problem
+### Business Problem
 Wings R Us wanted to implement smart, last-minute checkout recommendations in their app, website, and kiosks.
 Key requirements from the client:
 
@@ -25,7 +25,7 @@ A quick pilot to prove value before full rollout.
 
 Measure performance using Recall@3:How often the actual missing item appears in the top 3 predictions.
 
-#### Dataset Description
+### Dataset Description
 The dataset consists of four main CSV files:
 
 order_data.csv – 1.4M orders
@@ -44,7 +44,7 @@ test_data_question.csv – 1k rows for evaluation
 
 Contains cart configurations with one missing item to be predicted.
 
-#### Approach & Methodology
+### Approach & Methodology
 ##### 1. Data Loading & Merging
 mported all datasets using Pandas.
 
